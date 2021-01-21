@@ -1,6 +1,8 @@
 # To be able to run the app, copy this file to application.properties, and make sure the DB URL is correct.
-spring.datasource.url=jdbc:sqlserver://localhost:1433;Database=Blogger;IntegratedSecurity=true
+spring.datasource.url=jdbc:sqlserver://35.209.202.42:1433;Database=pverifyn\instanceone
+
+#IntegratedSecurity=true
 
 # If you're not using IntegratedSecurity=true, uncomment and set username and password here:
-#spring.datasource.username=AzureDiamond
-#spring.datasource.password=hunter2
+spring.datasource.username=WSFC\cluster-admin
+spring.datasource.password=Testie@1231
